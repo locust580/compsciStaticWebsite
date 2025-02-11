@@ -131,5 +131,51 @@
                 A computing model in which the server hosts, delivers and manages most of the resources and services to be consumed by the client.
             </details>
         </div>
+        <p>
+            <ul>
+                <li><b>1. Distinguish between the Internet and World Wide Web</b></li>
+                <li>The Internet is the network of networks; the World Wide Web is the content on it.</li>
+                <li><b>2. Describe how the web is constantly evolving (1.0, 2.0, 3.0)</b></li>
+                <li>1.0: Web of Content, read-only
+                    2.0: Web of the Users, read-write (JS, blogs)
+                    3.0: Semantic Web, read-write-execute, prevalence of tools
+                </li>
+                <li><b>3. Identify the characteristics of the following:</b></li>
+                <ul>
+                    <li>- HTTP: Hypertext Transfer Protocol</li>
+                    <li>A protocol used to transfer data across the internet</li>
+                    <li>- HTTPS: Hypertext Transfer Protocol Secure</li>
+                    <li>A protocol used to transfer data across the internet securely using the SSL encryption layer</li>
+                    <li>- HTML: Hypertext Mark-up Language</li>
+                    <li>Coding language used to create the bones of web pages using an XML-esque syntax</li>
+                    <li>- URL: Uniform Resource Locator</li>
+                    <li>A string that links to an IP, used for locating web pages</li>
+                    <li>- XML: Extensible Mark-up Language</li>
+                    <li>Used solely for transferring data, readable by many different languages</li>
+                    <li>- XLST: Extensible Stylesheet Language Tranformations</li>
+                    <li>Styling language for XML</li>
+                    <li>- JavaScript</li>
+                    <li>Coding language frequently used to give front-end functionality to websites. Also has backend uses with NodeJS</li>
+                    <li>- CSS: Cascading Style Sheet</li>
+                    <li>File with numerous lists attributing styles to different elements in a website's HTML; used for decoration basically.</li>
+                    <li>- URI: Uniform Resource Identifier</li>
+                    <li>The string after the domain name in a URL which specifies which resource to retrieve from the domain.</li>
+                </ul>
+                <ul>            
+                    <li><b>4. Describe the purpose of a URL</b></li>
+                    <li>A URL exists so that users on the internet do not need to know miscellaneous IP addresses of every website they want. Instead, they can remember a more human-readable string of characters, usually associated with the site in some way, and have DNS servers memorize the IPs for them.</li>
+                    <li><b>5. Describe how a domain name server functions</b></li>
+                    <li>When a user requests to go to a URL, their HTTP request is sent to a DNS server to retrieve the IP attached to that URL. If the DNS server does not have the URL, it asks other DNS servers until one of them has the IP, and if they do (if not an error is sent back to the server and then the user) the server saves the URL-IP association. If the DNS server did have the IP or retrieved it from other servers, it then sends that IP back, and the user can then visit the website (assuming there is no error in finding the IP).</li>
+                    <li><b>6. Identify the characteristics of:</b></li>
+                    <ul>
+                        <li>- IP - (Internet Protocol)</li>
+                        <li>A protocol that uses various numbers to give addresses to computers on the internet. The numbers function just like house numbers; if another computer knows it, they know where to visit when navigating the internet.</li>
+                        <li>- TCP – (Transmission Control Protocol)</li>
+                        <li>A protocol used to send files across the internet with error checking. If any packets are found to be missing during the reconstruction after a FTP request (e.g. packet 6/1000 is missing), more requests and responses will be made to get those specific packets back.</li>
+                        <li>- FTP - (File Transfer Protocol)</li>
+                        <li>FTP sends files between computers with an internet connection. Breaks files down into packets, or small bits of data, and adds the sender IP, receiver IP, and packet number (like a count used for reconstruction of the file) to each. These packets are then sent to the receiver and reassembled. Uses TCP for error checking. Then the requester can respond with their own files or information in the same way.</li>
+                </ul>
+            </ul>   
+        </p>     
     </body>
 </html>
